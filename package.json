@@ -1,0 +1,39 @@
+{
+  "name": "vultr.api",
+  "version": "0.0.1",
+  "description": "promise based vultr api that supports all v1 endpoints, and does local validaiton of requests",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "author": {
+    "name": "Chad Scira",
+    "email": "chadvscira@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "debug": "2.2.0",
+    "request": "2.80.0",
+    "request-promise": "4.1.1",
+    "rtry": "0.0.3",
+    "template-colors": "0.0.4"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-plugin-transform-decorators": "^6.13.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.4.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "webpack": "^1.13.2",
+    "webpack-node-externals": "^1.4.3"
+  }
+}
