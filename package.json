@@ -1,7 +1,7 @@
 {
   "name": "vultr.api",
-  "version": "0.0.1",
-  "description": "promise based vultr api that supports all v1 endpoints, and does local validaiton of requests",
+  "version": "0.0.2",
+  "description": "promise based vultr api that supports all v1 endpoints, and does local validation of requests",
   "main": "dist/index.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --config webpack.config.js"

@@ -1,6 +1,6 @@
 # vultr.api
 
-Node promise based vultr api that supports all v1 endpoints, and does local validaiton of requests.
+Node promise based vultr api that supports all v1 endpoints, and does local validation of requests.
 
 ## install
 
